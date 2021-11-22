@@ -1,0 +1,40 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+max-width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.calculatrice{
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.ecran{
+  background-color: whitesmoke;
+height: 100px;
+width: 100%;
+margin-bottom: 10px;
+border-radius: 3px;
+display: flex;
+justify-content: flex-end;
+align-items:flex-end;
+padding: 5px;
+}
+
+.touches{
+  display: grid;
+  grid-template-columns: repeat(4,60px);
+  grid-template-rows: repeat(5,50px);
+  grid-gap: 1px;
+
+}
