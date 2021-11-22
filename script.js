@@ -26,7 +26,8 @@ document.addEventListener('click', (e) =>
 
 
 
-const calculer = (valeur) =>{    
+const calculer = (valeur) =>
+{
     if (listeKeycode.includes(valeur))
     {
         switch (valeur)
@@ -47,7 +48,7 @@ const calculer = (valeur) =>{
 }
 
 
-// eror 
+// error 
 window.addEventListener('error', (e) =>
 {
     alert('Une erreur est survenue : ' + e.message)
